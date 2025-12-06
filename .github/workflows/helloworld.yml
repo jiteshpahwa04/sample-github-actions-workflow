@@ -1,6 +1,11 @@
 name: "Hello world workflow"
 
-# Controls when the workflow will run
+# Controls when the workflow will run on the main and production branches
+# But if we want to run on push on any branch, we can use:
+# on:
+#     push:
+#         branches:
+#             - '*'
 on:
     push:
         branches:
