@@ -5,8 +5,8 @@ on:
         branches:
             - main
             - test
-    schedule: # Event: Scheduled trigger of the workflow at specific times
-        - cron: '0 0 * * 0' # At 00:00 on Sundays
+    #schedule: # Event: Scheduled trigger of the workflow at specific times
+        #- cron: '0 0 * * 0' # At 00:00 on Sundays
     pull_request: # Event: Whenever there is a pull request to the repository on main branch
         branches:
             - main
